@@ -1,4 +1,42 @@
 {
   "$schema": "https://schema.yext.com/config/km/settings/v1",
-  "primaryEntityType": "location"
+  "primaryEntityType": "location",
+  "entityTypeSettings": [
+    {
+      "entityType": "atm",
+      "disabled": true
+    },
+    {
+      "entityType": "event",
+      "disabled": true
+    },
+    {
+      "entityType": "faq",
+      "disabled": true
+    },
+    {
+      "entityType": "healthcareFacility",
+      "disabled": true
+    },
+    {
+      "entityType": "healthcareProfessional",
+      "disabled": true
+    },
+    {
+      "entityType": "hotel",
+      "disabled": true
+    },
+    {
+      "entityType": "job",
+      "disabled": true
+    },
+    {
+      "entityType": "location",
+      "disabled": false
+    },
+    {
+      "entityType": "restaurant",
+      "disabled": true
+    }
+  ]
 }
